@@ -25,5 +25,5 @@ int main()
 	{
 		sumB+=b[i];
 	}
-	cout << "So thua la " << sumA - sumB;
+	cout << "So thua la " << sumB - sumA;
 }
