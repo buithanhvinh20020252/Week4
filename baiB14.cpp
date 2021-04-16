@@ -8,7 +8,7 @@ int main()
 	int sumB = 0;
 	cin >> n;
 	cout << "Nhap cac phan tu cua A" << endl;
-	for(i=0;i<n+1;i++)
+	for(i=0;i<n;i++)
 	{
 		cin >> a[i];
 	}
@@ -17,7 +17,7 @@ int main()
 		sumA+=a[i];
 	}
 	cout <<  "Nhap cac phan tu cua B" << endl;
-	for(i=0;i<n;i++)
+	for(i=0;i<n+1;i++)
 	{
 		cin >> b[i];
 	}
